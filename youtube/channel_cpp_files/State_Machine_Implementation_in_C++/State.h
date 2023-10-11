@@ -1,6 +1,7 @@
-#pragma once
-template<class T> 
+#ifndef State
+#define State
 
+template<class T> 
 class State {
 
 public:
@@ -14,3 +15,5 @@ private:
     /* data */
  
 };
+
+#endif

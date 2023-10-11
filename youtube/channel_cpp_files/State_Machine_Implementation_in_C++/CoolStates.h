@@ -1,4 +1,6 @@
-#pragma once
+#ifndef CoolStates
+#define CoolStates
+
 #include"State.h"
 #include<iostream>
 #include "ACoolStateMachine.h"
@@ -46,3 +48,5 @@ public:
         std::cout<<"Exit from Start StateN\n";
     }
 };
+
+#endif

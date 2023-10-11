@@ -1,4 +1,6 @@
-#pragma once
+#ifndef EventGenerator
+#define EventGenerator
+
 #include<iostream>
 
 #define MAX_COUNTER 5
@@ -18,3 +20,5 @@ class EventGenerator{
         int Generate(int eventNum);
 
 };
+
+#ifndef

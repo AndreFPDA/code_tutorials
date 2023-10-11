@@ -1,4 +1,6 @@
-#pragma once 
+#ifndef ACoolStateMachine
+#define ACoolStateMachine
+
 #include "StateMachine.h"
 
 class ACoolStateMachine:public StateMachine<ACoolStateMachine>{
@@ -21,4 +23,4 @@ public:
     friend class State2;
     friend class StateN;
 };
-
+#endif

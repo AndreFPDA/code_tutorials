@@ -1,7 +1,8 @@
-#pragma once
+#ifndef StateMachine
+#define StateMachine
+
 #include "State.h"
 #include <iostream>
-
 
 template <class T>
 
@@ -41,6 +42,6 @@ inline void StateMachine<T>::ChangeState(State<T>*newState){
     m_pCurrentState -> Exit(m_pOwner);
     m_pCurrentState = newState;
     m_pCurrentState -> Enter(m_pOwner);
-
-
     }
+
+#endif
